@@ -24,7 +24,7 @@
 
 ### CPE
 
-![CPE](./cpe.png)
+![CPE](../assets/images/optimlab/cpe.png)
 
 课本上提出了CPE(Cycle Per Element)的概念，用于方便地描述操作数组的函数的性能。如果一个函数对数组中的每个元素进行同种重复计算，那么可以测量每个“被计算的元素”平均花费的Cycle数，即CPE，数组长度`n`就是元素个数。
 
@@ -32,7 +32,7 @@
 
 ### Latency bound
 
-![Latency](./latency.png)
+![Latency](../assets/images/optimlab/latency.png)
 
 当我们连续多次进行同种运算时，如果这些运算之间存在数据依赖，那么这个依赖会成为限制程序性能的下界之一。观察下面这个计算前缀积的程序：
 
@@ -56,7 +56,7 @@ double product(double a[], long n)
 
 Functional Unit 的数量, Latency 以及 Cycles/Issue 值都是机器特定的。例如 ppt 上给出的 Haswell CPU 配置如下：
 
-![EU](./eu-sheet.png)
+![EU](../assets/images/optimlab/eu-sheet.png)
 
 ### 循环展开
 
@@ -71,7 +71,7 @@ for (i = 0; i < limit; i+=2) {
 
 省去了分支预测开销，CPE 下界由数据依赖导致。
 
-![CPE-table](./2x1-cpe-table.png)
+![CPE-table](../assets/images/optimlab/2x1-cpe-table.png)
 
 #### `2x1a` 展开
 ``` C
@@ -82,8 +82,8 @@ for (i = 0; i < limit; i+=2) {
 
 打破了数据依赖，x 的依赖路径变短了，从而突破了 Latency Bound。
 
-![Dependency-2x1a](./dep_2x1a.png)
-![2x1a-cpe](./cpe-table1.png)
+![Dependency-2x1a](../assets/images/optimlab/dep_2x1a.png)
+![2x1a-cpe](../assets/images/optimlab/cpe-table1.png)
 
 #### `2x2` 展开
 ```C
@@ -93,7 +93,7 @@ for (i = 0; i < limit; i+=2) {
 }
 ```
 
-![2x2-cpe](./2x2-cpe-table.png)
+![2x2-cpe](../assets/images/optimlab/2x2-cpe-table.png)
 
 使用两个累积变量，从而两个操作可以分别在两条流水线上执行。
 
@@ -101,7 +101,7 @@ for (i = 0; i < limit; i+=2) {
 
 总的来讲 `kxk` 展开在 `k` 足够高时，就可以消除循环间的数据依赖，从而CPE下界达到 Throughput Bound。
 
-![loop-unrolling](./double_10x10.png)
+![loop-unrolling](../assets/images/optimlab/double_10x10.png)
 
 在 Haswell 机器上，以浮点数乘法为例作10x10展开，就可以达到0.5的Throughput Bound。
 
