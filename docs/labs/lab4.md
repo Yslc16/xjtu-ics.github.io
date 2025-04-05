@@ -1547,11 +1547,12 @@ Trans perf 61x67          40.0        40        1914
 
 ## 代码提交
 
-在 `cachelab-sp25` 目录（也就是你的实验目录）下执行 `make submit` 命令，会生成一个名为 `<userid>-handin.zip` 的压缩文件，这会将你的`cache-impl.c`压缩上交。
-
-如果不是请重命名为`<userid>-handin.zip`（其中 `<userid>` 为`你的学号-ics`，也就是ICS Server中你的用户名）。
+在 `cachelab-sp25` 目录（也就是你的实验目录）下执行 `make submit` 命令，会生成一个名为 `<userid>-handin.zip` 的压缩文件，这会将你的`cache-impl.c`压缩上交。（其中 `<userid>` 为`你的学号-ics`，也就是ICS Server中你的用户名）。
 
 在[在线学习平台](http://class.xjtu.edu.cn/)上的作业模块中，将该文件作为附件提交即可。
+
+!!!note
+    提交网站可能会自动加上（2）等后缀以区分多次提交，这种情况无需担心，下载会自动以**最后一次提交**为准。如果你觉得不舒服，可以命名为例如`<userid>-cachelab-handin.zip`。文件命名不会影响到最后的成绩。
 
 ### 迟交
 在超过原定的截止时间后，我们仍然接受同学的提交。此时，在lab中能获得的最高分数将随着迟交天数的增加而减少，具体服从以下给分策略：
