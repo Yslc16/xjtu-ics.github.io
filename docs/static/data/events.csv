@@ -17,10 +17,10 @@ Lab,6,2025-03-30T23:59:58,2025-03-30T23:59:59,No Lecture,,,,,[attacklab](labs/la
 Lecture,7,2025-04-01T19:10:00,2025-04-01T21:00:00,Machine independent Optimization,Hao Li,assets/slides/10-optimization-machine-indep.pdf,主B-204,5.1-5.6,
 Lecture,7,2025-04-03T19:10:00,2025-04-03T21:00:00,Machine dependent Optimization,Hao Li,assets/slides/11-optimization-machine-dep.pdf,主B-204,5.7-5.11,[optimlab](labs/lab5.md) out
 Lecture,8,2025-04-08T19:10:00,2025-04-08T21:00:00,Linking I: Basic Concepts and Procedures,Hao Li,assets/slides/12-linking-basic.pdf,主B-204,7.1-7.7,
-Lecture,8,2025-04-10T19:10:00,2025-04-10T21:00:00,,Hao Li,,主B-204,,
+Lecture,8,2025-04-10T19:10:00,2025-04-10T21:00:00,Linking II: Static and Dynamic Linking,Hao Li,assets/slides/13-linking-library.pdf,主B-204,7.7-7.13,
 Lab,8,2025-04-13T23:59:58,2025-04-13T23:59:59,No Lecture,,,,,[cachelab](labs/lab4.md) due
-Lecture,9,2025-04-15T19:10:00,2025-04-15T21:00:00,,Hao Li,,主B-204,,
-Lecture,9,2025-04-17T19:10:00,2025-04-17T21:00:00,,Hao Li,,主B-204,,[linkerlab](labs/lab6.md) out
+Lecture,9,2025-04-15T19:10:00,2025-04-15T21:00:00,Linking II: Static and Dynamic Linking,Hao Li,assets/slides/13-linking-library.pdf,主B-204,7.7-7.13,
+Lecture,9,2025-04-17T19:10:00,2025-04-17T21:00:00,Operating System: History and Three Easy Pieces,Hao Li,assets/slides/14-os-ostep.pdf,主B-204,,[linkerlab](labs/lab6.md) out
 Lecture,10,2025-04-22T19:10:00,2025-04-22T21:00:00,,Hao Li,,主B-204,,
 Lecture,10,2025-04-24T19:10:00,2025-04-24T21:00:00,,Hao Li,,主B-204,,[optimlab](labs/lab5.md) due
 Lecture,11,2025-04-29T19:10:00,2025-04-29T21:00:00,,Hao Li,,主B-204,,
