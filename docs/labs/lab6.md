@@ -494,7 +494,7 @@ Aborted (core dumped)
 
 1. 名字匹配。同test 2。
 2. 能被其它文件发现。同test 2。
-3. 不存在初值。即`Symbol`的`index`为`SHN_COMMON`。
+3. 不存在初值。即`Symbol`的`index`为`SHN_COMMON`或`SHN_UNDEF`。
 
 预期输出：
 
