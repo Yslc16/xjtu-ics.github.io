@@ -12,7 +12,7 @@
 
 本地环境配置命令如下：
 ```bash
-pip install mkdocs-material mkdocs-open-in-new-tab mkdocs-macros-plugin pandas tabulate
+pip install mkdocs-material mkdocs-open-in-new-tab mkdocs-macros-plugin pandas tabulate mike
 ```
 
 本地预览命令如下：

@@ -1,5 +1,5 @@
 # Project information
-site_name: Introduction to Computer Systems Spring 2025
+site_name: Introduction to Computer Systems Spring 2026
 site_url: https://xjtu-ics.github.io/
 site_author: XJTU-ICS TEAM
 site_description: >-
@@ -8,7 +8,7 @@ site_description: >-
 repo_name: xjtu-ics/xjtu-ics.github.io
 repo_url: https://github.com/xjtu-ics/xjtu-ics.github.io
 # Copyright
-copyright: Copyright &copy; 2025 XJTU ICS-TEAM
+copyright: Copyright &copy; 2026 XJTU ICS-TEAM
 # Configuration
 theme:
   name: material
@@ -99,13 +99,13 @@ nav:
   - Calendar: calendar/index.md
   - Labs:
     - "Lab 0: Tutorial and Environmental Preparation": labs/lab0.md
-    - "Lab 1: Data Lab": labs/lab1.md
-    - "Lab 2: Bomb Lab": labs/lab2.md
-    - "Lab 3: Attack Lab": labs/lab3.md
-    - "Lab 4: Cache Lab": labs/lab4.md
-    - "Lab 5: Optimization Lab": labs/lab5.md
-    - "Lab 6: Linker Lab": labs/lab6.md
-    - "Lab 7: Malloc Lab": labs/lab7.md
+    # - "Lab 1: Data Lab": labs/lab1.md
+    # - "Lab 2: Bomb Lab": labs/lab2.md
+    # - "Lab 3: Attack Lab": labs/lab3.md
+    # - "Lab 4: Cache Lab": labs/lab4.md
+    # - "Lab 5: Optimization Lab": labs/lab5.md
+    # - "Lab 6: Linker Lab": labs/lab6.md
+    # - "Lab 7: Malloc Lab": labs/lab7.md
   - Staff: staff/index.md
   - Policies: policies/index.md
   - Resources:
