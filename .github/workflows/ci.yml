@@ -27,4 +27,4 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material mkdocs-open-in-new-tab mkdocs-macros-plugin pandas tabulate mike
-      - run: mike deploy sp-2026
+      - run: mike deploy sp-2026 --push
