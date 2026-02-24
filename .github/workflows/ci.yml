@@ -7,11 +7,12 @@ on:
       - main
 permissions:
   contents: write
-env:
-  DOC_VERSION: ${{ vars.DOC_VERSION }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      DOC_VERSION: ${{ vars.DOC_VERSION }}
     steps:
       - uses: actions/checkout@v4
         with:
