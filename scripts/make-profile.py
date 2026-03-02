@@ -53,17 +53,18 @@ def unzip_files(source_folder):
             if os.path.splitext(entry)[1].lower() in supported_extensions
         ]
 
-        if len(json_files) != 1 or len(image_files) != 1:
+        if len(json_files) != 1 or len(image_files) > 1:
             raise ValueError(
-                f"{file} 格式错误：{zip_file_name}/ 根目录下必须且只能包含一个 .json 和一个图片文件（.jpg/.jpeg/.png/.gif）"
+                f"{file} 格式错误：{zip_file_name}/ 根目录下必须且只能包含一个 .json 和至多一个图片文件（.jpg/.jpeg/.png/.gif）"
             )
 
         target_json = os.path.join(target_folder, f"{zip_file_name}.json")
-        image_ext = os.path.splitext(image_files[0])[1].lower()
-        target_image = os.path.join(target_folder, f"{zip_file_name}{image_ext}")
-
         os.replace(json_files[0], target_json)
-        os.replace(image_files[0], target_image)
+
+        if image_files:
+            image_ext = os.path.splitext(image_files[0])[1].lower()
+            target_image = os.path.join(target_folder, f"{zip_file_name}{image_ext}")
+            os.replace(image_files[0], target_image)
                         
 def mv_picture(source_folder):
     supported_extensions = {'.jpg', '.jpeg', '.png', '.gif'}
