@@ -43,9 +43,9 @@ VSCode强大之处在于其“远程”开发能力，这里的远程包括：
 
 当然，我们也推荐大家采用自己习惯的工具进行开发。
 
-有关VSCode远程开发的配置与使用详见[VSCode配置文档](../resources/VScodeRemote-SSH.md)
+有关VSCode远程开发的配置与使用详见[VSCode远程开发](../resources/VScodeRemote-SSH.md)
 
-## 实用工具学习与熟悉
+## 实用工具学习
 
 本小节提供一些优质的学习资源，以便同学们对Linux开发环境的快速上手。
 
@@ -60,11 +60,11 @@ VSCode强大之处在于其“远程”开发能力，这里的远程包括：
 - Noting: [Obsidian](https://obsidian.md/)/[Notion](https://www.notion.com/) + AI
 - Others: [Gemini CLI](https://geminicli.com/), [OpenCode](https://opencode.ai/), [OpenClaw](https://openclaw.ai/)...
 
-有关这些工具的使用可以参考[]，或者其他网络上的优质博客等，这里不过多解释了。
+有关这些工具的配置和使用方法可以参考[]，或者其他网络上的优质博客等，这里不过多解释。
 
 ### Linux使用入门
 
-考虑到绝大多数同学可能并没有Linux使用经验，这里简要为大家准备Linux入门相关视频资源，请大家结合自身情况进行学习：
+考虑到绝大多数同学可能并没有Linux使用经验，这里简要为大家准备Linux入门相关资源，请大家结合自身情况进行学习：
 
 - [Linux Journey Command Line](https://labex.io/lesson/the-shell)：把命令分成“入门”、“进阶”和“专家”级，每个知识点后都有小测验。
 
@@ -84,8 +84,9 @@ B站中有对应的公开课[视频资源](https://www.bilibili.com/video/BV14E4
 
 ### 其他的一些coding tools
 
-- vim/neovim等：可以用于修改小文件，如常见的配置文件等，基于终端使用非常方便
+- vim/neovim/emacs等：可以用于修改小文件，如常见的配置文件等，基于终端使用非常方便
 - zed/antigravity等：更好的集成了一些AI工具，可以加速开发效率等
+- git/tmux等：一些实用的终端工具
 
 网络上可以查找到非常多的教程，这里就不再赘述，有兴趣的同学可以自行搜索。
 
